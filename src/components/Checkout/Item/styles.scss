@@ -1,0 +1,24 @@
+.cartBtnremove {
+    position:absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    outline: none;
+    line-height: 1;
+    font-weight: 400;
+    padding: 8px 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: black;
+    box-shadow: 0 2px 4px 0  whitesmoke;
+
+    &:hover {
+        background: red;
+        border-radius: 10px;
+        color: white;
+        border: black;
+        box-shadow: 0 2px 4px 0  rgba(243, 115, 115, 0.938);
+        font-weight: 700;
+    }
+}

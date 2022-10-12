@@ -1,0 +1,56 @@
+
+.productCard {
+    max-width: 80.0rem;
+    display: flex;
+    margin-top:20px;
+    
+
+    .hero {
+        display: block;
+        margin: 2rem auto;
+        float:right;
+        
+
+
+        img {
+            width: 400px;
+            height:400px;
+            margin-right: 70px;
+            
+
+        }
+    }
+
+    .productDetails {
+
+        margin-top: 50px;
+        ul{
+            margin-left: -200px;
+        }
+         ul li {
+            padding: 0%;
+            margin: 0%;
+            width:400px;
+            margin-top:10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        ul li {
+            display: block;
+            margin: 0 auto 1rem;
+            margin-left: 200px;
+        }
+    }
+
+    .addToCart {
+        max-width: 20.0rem;
+    }
+}
+
+.product__name {
+    margin-left: 350px;
+    margin-top: -300px;
+}
+
+ 
